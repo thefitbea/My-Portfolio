@@ -57,3 +57,10 @@ body{
     position: relative;
     right: 10%;
 }
+
+/* CSS BREAKPOINTS FOR DISPLAYS ABOVE TABLETS */
+@media (min-width: 1048px) {
+  .custom-dropdown{
+      padding-bottom: 7%;
+  }
+}
