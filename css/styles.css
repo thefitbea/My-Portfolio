@@ -1,0 +1,59 @@
+#title{
+    /* background-color: #ff4c68; */
+    background-color: #00d1b2;
+}
+
+body{
+    font-family: 'Montserrat' ,sans-serif;
+}
+
+.brand-caption{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+
+.brand-logo{
+    font-family: 'Ubuntu' , sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.custom{
+
+    padding-top: 5.5rem;
+
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+/* overide Bootstrap */
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.navbar{
+    padding: 0px;
+
+}
+
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.dropdown-item{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.custom-drop{
+    position: relative;
+    right: 10%;
+}
