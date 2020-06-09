@@ -5,6 +5,8 @@
 
 body{
     font-family: 'Montserrat' ,sans-serif;
+    overflow-y: hidden;
+    /* hides scrollbar */
 }
 
 .brand-caption{
@@ -63,4 +65,93 @@ body{
   .custom-dropdown{
       padding-bottom: 7%;
   }
+}
+/* ***********************/
+
+.port-description{
+  font-family: 'Courier Prime', monospace;
+  color: #0d151c;
+}
+
+/* TAGS */
+.o-container{
+  margin: 0px;
+  padding: 0px 4.75rem;
+}
+
+/* FOR DESKTOP */
+@media (min-width: 700px){
+.c-filter {
+    /* margin-bottom: 10rem; */
+    padding: 0 10%;
+
+  }
+}
+
+@media (max-width: 700px){
+.c-filter {
+    justify-content: center;
+  }
+}
+
+.c-filter {
+    display: flex;
+    width: 100%;
+}
+
+.c-filter_list {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ol, p, .custom-ul {
+    margin: 0;
+    padding: 0;
+}
+ol, .custom-ul {
+    list-style: none;
+}
+
+.custom-li {
+    display: list-item;
+    padding: 0px 1rem;
+    text-align: -webkit-match-parent;
+}
+
+.bear-video{
+  /* float: right; */
+  position: absolute;
+  top: 50%;
+  right: 15%;
+}
+
+.credits {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.bear-video:hover{
+
+}
+
+
+@media (max-width: 1280px) {
+  .bear-video{
+    position: static;
+    text-align: center;
+  }
+}
+/* BOOTSTRAP OVERIDE */
+
+.navbar-light .navbar-toggler{
+  border-color: rgb(0, 0, 0, 0);
 }
