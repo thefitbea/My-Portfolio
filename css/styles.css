@@ -60,6 +60,8 @@ body{
     right: 10%;
 }
 
+
+
 /* CSS BREAKPOINTS FOR DISPLAYS ABOVE TABLETS */
 @media (min-width: 1048px) {
   .custom-dropdown{
@@ -120,34 +122,33 @@ ol, .custom-ul {
     text-align: -webkit-match-parent;
 }
 
-.bear-video{
+.background-video{
   /* float: right; */
   position: absolute;
   top: 50%;
   right: 15%;
 }
 
-.credits {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-}
-
-.bear-video:hover{
-
-}
 
 
 @media (max-width: 1280px) {
-  .bear-video{
+  .background-video{
     position: static;
     text-align: center;
+  }
+  .caption-heading{
+    font-size: 1.25rem;
+  }
+  .c-button_label{
+    font-size: .75rem;
+  }
+  .custom{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .bear-video{
+    width: 250px;
+    height: auto;
   }
 }
 /* BOOTSTRAP OVERIDE */
