@@ -6,8 +6,10 @@
 body{
     font-family: 'Montserrat' ,sans-serif;
     overflow-y: hidden;
+    overflow-x: hidden;
     /* hides scrollbar */
 }
+
 
 .brand-caption{
     font-family: 'Montserrat', sans-serif;
@@ -40,14 +42,28 @@ body{
   width: 25px;
   height: auto;
 }
-.mode{
 
-}
-.night-mode{
-  color: #000;
-}
 
 /* overides Bootstrap */
+
+/*-- change navbar dropdown color --*/
+
+.dropdown-menu a:hover{
+  /* background: #f1c40f!important; */
+  background: #fff;
+
+            /* background: linear-gradient(left, #0272a7, #013953);
+            background: -moz-linear-gradient(left, #0272a7, #013953)!important;
+            background: -webkit-gradient(linear, 100% 100%, 0% 0%, from(#0272a7), to(#013953))!important; */
+
+  /* color: #f8f9fa !important; */
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+}
+
+
 .nav-link{
     font-size: 1.2rem;
     font-weight: lighter;
@@ -74,15 +90,145 @@ body{
     border-radius: 7.5%;
 }
 
+::selection{
+  background: #f1c40f;
+}
+/* MEDIA QUERY BREAKPOINTS */
 
+                              /* G_U_I_D_E */
 
-/* CSS BREAKPOINTS FOR DISPLAYS ABOVE TABLETS */
-@media (min-width: 1048px) {
+/* Using min-width PREFERED*/
+
+ /*// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* Using max-width */
+
+@media (max-width: 575.98px) { ... }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { ... }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { ... }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { ... }
+
+                                  /*END_GUIDE*/
+
+                                  /* REAL USAGE */
+                                  /*// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .c-filter {
+    justify-content: center;
+  }
+  .background-video{
+    position: relative;
+    top: 77%;
+    text-align: center;
+  }
+  .custom-top-container{
+    padding-bottom: 0px;
+  }
+}
+
+                                  /* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+                                  /* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
   .custom-dropdown{
       padding-bottom: 7%;
   }
+  .c-filter {
+      /* margin-bottom: 10rem; */
+      padding: 0 10%;
+    }
 }
-/* ***********************/
+
+                                  /* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .background-video{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+  }
+}
+
+
+/* O_L_D */
+
+/* On screens that are 1048px or above */
+/* @media (min-width: 1048px) {
+  .custom-dropdown{
+      padding-bottom: 7%;
+  }
+  .c-filter {
+
+      padding: 0 10%;
+    }
+} */
+/* On screens that are 1280px or above */
+/* @media (min-width: 1280px) {
+  .background-video{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+  }
+} */
+
+
+/* On screens that are 700px or less */
+/* @media (max-width: 700px){
+  .c-filter {
+    justify-content: center;
+  }
+  .background-video{
+    position: relative;
+    top: 77%;
+    text-align: center;
+  }
+  .custom-top-container{
+    padding-bottom: 0px;
+  }
+} */
+/* On screens that are 1445px or less */
+/* @media (max-width: 1445px) {
+  .background-video{
+    position: absolute;
+  }
+} */
+/* On screens that are 1280px or less */
+/* @media (max-width: 1280px) {
+  .caption-heading{
+    font-size: 1.25rem;
+  }
+  .c-button_label{
+    font-size: .75rem;
+  }
+  .custom{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .bear-video{
+    width: 250px;
+    height: auto;
+  }
+  .custom-drop{
+    text-align: center;
+  }
+} */
+/* *********END**************/
 
 .port-description{
   font-family: 'Courier Prime', monospace;
@@ -95,20 +241,7 @@ body{
   padding: 0px 4.75rem;
 }
 
-/* FOR DESKTOP */
-@media (min-width: 700px){
-.c-filter {
-    /* margin-bottom: 10rem; */
-    padding: 0 10%;
 
-  }
-}
-
-@media (max-width: 700px){
-.c-filter {
-    justify-content: center;
-  }
-}
 
 .c-filter {
     display: flex;
@@ -136,35 +269,11 @@ ol, .custom-ul {
     text-align: -webkit-match-parent;
 }
 
-.background-video{
-  /* float: right; */
-  position: absolute;
-  top: 50%;
-  right: 15%;
-}
 
 
 
-@media (max-width: 1280px) {
-  .background-video{
-    position: static;
-    text-align: center;
-  }
-  .caption-heading{
-    font-size: 1.25rem;
-  }
-  .c-button_label{
-    font-size: .75rem;
-  }
-  .custom{
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  .bear-video{
-    width: 250px;
-    height: auto;
-  }
-}
+
+
 /* BOOTSTRAP OVERIDE */
 
 .navbar-light .navbar-toggler{
