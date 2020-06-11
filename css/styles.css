@@ -35,8 +35,13 @@ body{
 .my-name{
   font-weight: bolder;
 }
+.waving-hand{
+  /* background-image: url(../images/waving-hand-sign.png); */
+  width: 25px;
+  height: auto;
+}
 .mode{
-  
+
 }
 .night-mode{
   color: #000;
