@@ -87,7 +87,8 @@ body{
 .custom-drop{
     position: relative;
     right: 10%;
-    border-radius: 7.5%;
+    /* border-radius: 7.5%; */
+    border-style: hidden;
 }
 
 ::selection{
