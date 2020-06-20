@@ -270,18 +270,25 @@ ol, .custom-ul {
 .y-2019{
   position: absolute;
   top: 44.5%;
-  left: 49%;
+  left: 69%;
 }
 .y-2020-1{
   position: absolute;
   top: 44.5%;
-  left: 31%;
+  left: 54%;
 }
 .y-2020-2{
   position: absolute;
   top: 44.5%;
-  left: 49%;
+  left: 39%;
 }
+.y-2020-3{
+  position: absolute;
+  top: 44.5%;
+  left: 31%;
+}
+
+
 .line-1{
   width: 10%;
   height: auto;
@@ -371,7 +378,7 @@ ol, .custom-ul {
 .x-4{
   position: absolute;
   top: 40%;
-  left: 55%;
+  left: 71%;
 }
 .line-8{
   width: 10%;
@@ -392,7 +399,7 @@ ol, .custom-ul {
 .x-5{
   position: absolute;
   top: 39.5%;
-  left: 32%;
+  left: 55%;
 }
 
 .line-10{
@@ -400,7 +407,7 @@ ol, .custom-ul {
   height: auto;
   position: absolute;
   top: 41%;
-  left: 53%;
+  left: 33%;
   transform: rotate(6.05deg);
 }
 .line-11{
@@ -408,11 +415,17 @@ ol, .custom-ul {
   height: auto;
   position: absolute;
   top: 41%;
-  left: 63%;
+  left: 53%;
 }
 
 .x-6{
   position: absolute;
   top: 40%;
-  left: 55%;
+  left: 41%;
+}
+
+.job-search{
+  position: absolute;
+  top: 39%;
+  left: 30.75%;
 }
