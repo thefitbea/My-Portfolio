@@ -284,7 +284,7 @@ ol, .custom-ul {
 .y-2020-2 {
   position: absolute;
   top: 44.5%;
-  left: 39%;
+  left: 40.5%;
 }
 
 .y-2020-3 {
@@ -446,10 +446,45 @@ ol, .custom-ul {
 
 .skills {
   position: absolute;
+  top: 58.5%;
 }
 
 .passion {
   position: absolute;
   left: 75%;
   top: 58.5%;
+}
+
+.skill-tick {
+  width: 12%;
+  height: auto;
+  position: absolute;
+  right: 0%;
+}
+
+.custom-ul {
+  width: 90%;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  padding-right: 15%;
+  position: relative;
+  left: 5%
+}
+
+.skill-list {
+  list-style: none;
+}
+
+.passion-tick {
+  width: 12%;
+  height: auto;
+  position: absolute;
+  right: 0%;
+}
+
+.hire-me-button {
+  position: absolute;
+  top: 65%;
+  left: 50%;
 }
