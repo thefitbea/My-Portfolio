@@ -487,4 +487,9 @@ ol, .custom-ul {
   position: absolute;
   top: 65%;
   left: 50%;
+  border-style: hidden;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  border-radius: 12px 0 12px 0px;
 }
