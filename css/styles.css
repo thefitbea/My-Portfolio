@@ -242,6 +242,8 @@ ol, .custom-ul {
 
 .y-description {
   font-size: 0.85rem;
+  font-family: 'Courier Prime', monospace;
+  color: #0d151c;
   line-height: 1.5;
 }
 
@@ -451,7 +453,7 @@ ol, .custom-ul {
 
 .passion {
   position: absolute;
-  left: 75%;
+  left: 76%;
   top: 58.5%;
 }
 
@@ -474,6 +476,8 @@ ol, .custom-ul {
 
 .skill-list {
   list-style: none;
+  font-family: 'Courier Prime', monospace;
+  color: #0d151c;
 }
 
 .passion-tick {
@@ -486,7 +490,7 @@ ol, .custom-ul {
 .hire-me-button {
   position: absolute;
   top: 65%;
-  left: 50%;
+  left: 47%;
   border-style: hidden;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.75rem;
@@ -494,3 +498,10 @@ ol, .custom-ul {
   border-radius: 12px 0 12px 0px;
 }
 
+.chat-box{
+  position: absolute;
+  top: 77%;
+  left: 35%;
+  width: 35%;
+  height: auto;
+}
