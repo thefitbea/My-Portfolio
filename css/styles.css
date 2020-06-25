@@ -142,8 +142,6 @@ ol, .custom-ul {
 } */
 .contact-footer {
   background-color: #fff;
-  position: absolute;
-  left: 0%;
   text-align: center;
   padding: 1% 15% 1%;
   width: 100%;
@@ -159,6 +157,23 @@ ol, .custom-ul {
 .path {}
 
 .mile-stones {}
+
+.why-us {
+  line-height: 2;
+}
+
+.why-us-ans {
+  line-height: 2;
+}
+
+.features {
+  padding: 100px;
+  text-align: center;
+}
+
+.features-column {
+  padding: 3% 2%;
+}
 
 .y-description-heading {
   font-weight: 550;
