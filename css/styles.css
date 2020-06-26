@@ -158,11 +158,11 @@ ol, .custom-ul {
 
 .mile-stones {}
 
-.why-us {
+.why-me {
   line-height: 2;
 }
 
-.why-us-ans {
+.why-me-ans {
   line-height: 2;
 }
 
@@ -385,64 +385,58 @@ ol, .custom-ul {
   left: 30.75%;
 }
 
-.skills {
-  position: absolute;
-  top: 58.5%;
+.card-header {
+  font-size: .75rem;
 }
 
 .passion {
-  position: absolute;
-  left: 76%;
-  top: 58.5%;
+
 }
 
 .skill-tick {
-  width: 12%;
+  width: 5%;
   height: auto;
   position: absolute;
   right: 0%;
 }
 
-.custom-ul {
-  width: 90%;
-  list-style-type: none;
-  margin: auto;
-  padding: 0;
-  padding-right: 15%;
-  position: relative;
-  left: 5%
+.card-custom{
+  width: 77%;
+  height: auto;
 }
 
+.card-header{
+  padding: 1% 2%;
+  margin-bottom: 0px;
+}
 .skill-list {
+  position: absolute;
+  left: 12%;
+  top: 50%;
   list-style: none;
   font-family: 'Courier Prime', monospace;
   color: #0d151c;
 }
 
+.passion-list {
+  position: absolute;
+  left: 52%;
+  top: 50%;
+  list-style: none;
+  font-family: 'Courier Prime', monospace;
+  color: #0d151c;
+}
 .passion-tick {
-  width: 12%;
+  width: 5%;
   height: auto;
   position: absolute;
   right: 0%;
 }
 
 .hire-me-button {
-  text-align: center;
-  position: absolute;
-  top: 65%;
-  left: 47%;
   border-style: hidden;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.75rem;
   line-height: 1.5;
   border-radius: 12px 0 12px 0px;
-}
-
-.chat-box {
-  text-align: center;
-  position: relative;
-  top: 77%;
-  left: 35%;
-  width: 35%;
-  height: auto;
 }
