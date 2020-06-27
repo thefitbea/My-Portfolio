@@ -172,7 +172,7 @@ ol, .custom-ul {
 }
 
 .features-column {
-  padding: 3% 2%;
+  padding: 0%;
 }
 
 .y-description-heading {
@@ -405,6 +405,7 @@ ol, .custom-ul {
   height: auto;
   margin: 0px;
   border-style: none;
+  width: 40%;
 }
 
 .card-header{
@@ -412,6 +413,7 @@ ol, .custom-ul {
   margin-bottom: 0px;
   background-color: rgba(0, 0, 0, 0);
   border-bottom: 0px;
+  text-align: center;
 }
 .skills, .passions {
   margin-bottom: 0px;
@@ -445,5 +447,5 @@ ol, .custom-ul {
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.75rem;
   line-height: 1.5;
-  border-radius: 12px 0 12px 0px;
+  border-radius: 12px 0px 12px 0px;
 }
