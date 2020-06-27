@@ -403,10 +403,17 @@ ol, .custom-ul {
 .card-custom{
   width: 77%;
   height: auto;
+  margin: 0px;
+  border-style: none;
 }
 
 .card-header{
   padding: 1% 2%;
+  margin-bottom: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 0px;
+}
+.skills, .passions {
   margin-bottom: 0px;
 }
 .skill-list {
