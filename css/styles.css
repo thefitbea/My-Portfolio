@@ -2,7 +2,14 @@
   /* background-color: #ff4c68; */
   background-color: #00d1b2;
 }
-
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-y: hidden;
@@ -142,6 +149,8 @@ ol, .custom-ul {
 } */
 .contact-footer {
   background-color: #fff;
+  /* position: absolute;
+left: 5.3%; */
   text-align: center;
   padding: 1% 15% 1%;
   width: 100%;
@@ -407,6 +416,7 @@ ol, .custom-ul {
   margin: 0px;
   border-style: none;
   width: 40%;
+  z-index: 2;
 }
 
 /* .card-header{
@@ -455,4 +465,8 @@ ol, .custom-ul {
   font-size: 1.75rem;
   line-height: 1.5;
   border-radius: 12px 0px 12px 0px;
+}
+
+.hire-me-button:hover, .read-blog-button:hover {
+  background-color: ;
 }
