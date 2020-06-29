@@ -74,41 +74,45 @@
     top: 38%;
     left: 71.5%;
   }
+
   .line-5 {
     width: 10%;
     height: auto;
     position: absolute;
     top: 33%;
     left: 61.75%;
-}
-.line-7 {
+  }
+
+  .line-7 {
     width: 10%;
     height: auto;
     position: absolute;
     top: 41%;
     left: 62.75%;
-}
-.y-2020-3 {
+  }
+
+  .y-2020-3 {
     position: absolute;
     top: 44.5%;
     left: 25%;
-}
-.job-search {
+  }
+
+  .job-search {
     position: absolute;
     top: 39%;
     left: 30.55%;
-}
-.blockquote {
+  }
+
+  .blockquote {
     margin-bottom: 1rem;
     font-size: 1rem;
-}
+  }
 
-.y-1998 {
+  .y-1998 {
     position: absolute;
     top: 21%;
     left: 25%;
-}
-
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -159,3 +163,15 @@
 /* O_L_D */
 /* commit 615a9c877499c888d12713cd7fecc714d5469e57 on github */
 /* *********END**************/
+/* 2k RESOLUTION */
+@media (min-width: 2040px) {
+
+  /* COMMON */
+  body h4 {
+    font-size: 2rem;
+  }
+
+  .y-description, .skill-category-item, .passion-category-item {
+    font-size: 2rem;
+  }
+}
