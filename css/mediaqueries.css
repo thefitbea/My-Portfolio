@@ -50,6 +50,32 @@
   }
 
   /* ABOUT */
+  body {
+    overflow-x: scroll;
+    overflow-y: scroll;
+  }
+
+  .hari-image {
+    position: absolute;
+    left: 40%;
+  }
+
+  .dot {
+    position: absolute;
+    top: 32.75%;
+    left: 45%;
+  }
+
+  .line-1 {
+    left: 41%;
+    transform: rotate(90deg);
+    top: 38%;
+  }
+
+  .contact-footer {
+    position: absolute;
+    top: 165%;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
