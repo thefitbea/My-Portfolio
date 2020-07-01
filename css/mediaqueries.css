@@ -50,109 +50,6 @@
   }
 
   /* ABOUT */
-  body {
-    overflow-x: scroll;
-    overflow-y: scroll;
-  }
-
-  .hari-image {
-    position: absolute;
-    left: 40%;
-    top: 13%;
-  }
-
-  .dot {
-    position: absolute;
-    top: 32.75%;
-    left: 45%;
-  }
-
-  .line-1 {
-    left: 41%;
-    transform: rotate(90deg);
-    top: 38%;
-  }
-  .line-2 {
-      width: 10%;
-      height: auto;
-      position: absolute;
-      top: 46.25%;
-      left: 41.5%;
-      transform: rotate(90deg);
-  }
-  .line-3 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 54%;
-    left: 41.5%;
-    transform: rotate(90deg);
-}
-.line-4 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 62%;
-    left: 42%;
-    transform: rotate(90deg);
-}
-.line-5 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 70%;
-    left: 42%;
-    transform: rotate(90deg);
-}
-.turn-1, .turn-2{
-  display: none;
-}
-.line-6 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 78%;
-    left: 42.5%;
-    transform: rotate(90deg);
-}
-.line-7 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 86%;
-    left: 43%;
-    transform: rotate(90deg);
-}
-.line-8 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 94%;
-    left: 43.5%;
-    transform: rotate(90deg);
-}
-.line-9 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 102%;
-    left: 44%;
-    transform: rotate(90deg);
-}
-.x-1 {
-    position: absolute;
-    top: 42%;
-    left: 43%;
-}
-.x-2 {
-    position: absolute;
-    top: 55%;
-    left: 43.75%;
-}
-  .contact-footer {
-    position: absolute;
-    top: 165%;
-  }
 
 
 }
@@ -263,6 +160,135 @@
   }
 
   /* ABOUT */
+  body {
+    overflow-x: scroll;
+    overflow-y: scroll;
+  }
+
+  .hari-image {
+    position: absolute;
+    left: 40%;
+    top: 13%;
+  }
+
+  .dot {
+    position: absolute;
+    top: 32.75%;
+    left: 45%;
+  }
+
+  .line-1 {
+    left: 41%;
+    transform: rotate(90deg);
+    top: 38%;
+  }
+  .line-2 {
+      width: 10%;
+      height: auto;
+      position: absolute;
+      top: 46.25%;
+      left: 41.5%;
+      transform: rotate(90deg);
+  }
+  .line-3 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 54%;
+    left: 41.5%;
+    transform: rotate(90deg);
+}
+.line-4 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 62%;
+    left: 42%;
+    transform: rotate(90deg);
+}
+.line-5 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    transform: rotate(90deg);
+}
+.turn-1, .turn-2{
+  display: none;
+}
+.line-6 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 78%;
+    left: 42.5%;
+    transform: rotate(90deg);
+}
+.line-7 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 86%;
+    left: 43%;
+    transform: rotate(90deg);
+}
+.line-8 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 94%;
+    left: 43.5%;
+    transform: rotate(90deg);
+}
+.line-9 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 102%;
+    left: 44%;
+    transform: rotate(90deg);
+}
+.x-1 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.x-2 {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+}
+.x-3 {
+    position: absolute;
+    top: 63%;
+    left: 45%;
+}
+.x-4 {
+    position: absolute;
+    top: 70%;
+    left: 44%;
+}
+.x-5 {
+    position: absolute;
+    top: 80%;
+    left: 46.5%;
+}
+.x-6 {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+.job-search {
+    position: absolute;
+    top: 105.75%;
+    left: 45%;
+}
+  .contact-footer {
+    position: absolute;
+    top: 165%;
+  }
+
 }
 
 /* O_L_D */
