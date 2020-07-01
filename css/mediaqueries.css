@@ -256,7 +256,7 @@
 }
 .x-2 {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 44%;
 }
 .x-3 {
@@ -266,23 +266,58 @@
 }
 .x-4 {
     position: absolute;
-    top: 70%;
+    top: 76%;
     left: 44%;
 }
 .x-5 {
     position: absolute;
-    top: 80%;
+    top: 83%;
     left: 46.5%;
 }
 .x-6 {
     position: absolute;
-    top: 90%;
+    top: 99%;
     left: 45%;
 }
 .job-search {
     position: absolute;
     top: 105.75%;
     left: 45%;
+}
+.y-1998 {
+    position: absolute;
+    top: 35%;
+    left: 52%;
+}
+.y-2014 {
+    position: absolute;
+    top: 52.75%;
+    left: 25%;
+}
+.y-2016 {
+    position: absolute;
+    top: 57.5%;
+    left: 55%;
+}
+.y-2019 {
+    position: absolute;
+    top: 70%;
+    left: 4%;
+}
+.y-2020-1 {
+    position: absolute;
+    top: 81%;
+    left: 54%;
+}
+.y-2020-2 {
+    position: absolute;
+    top: 98%;
+    left: 29%;
+}
+.y-2020-3 {
+    position: absolute;
+    top: 110%;
+    left: 55%;
 }
   .contact-footer {
     position: absolute;
