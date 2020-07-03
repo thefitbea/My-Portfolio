@@ -475,3 +475,20 @@ left: 5.3%; */
 .hire-me-button:hover, .read-blog-button:hover {
   background-color: ;
 }
+
+/* END-ABOUT */
+
+
+/* BLOG */
+
+.clock-image{
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+.coming-soon{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+}
