@@ -275,7 +275,7 @@
 
   /* WORK */
   .work-showcase {
-    display: none;
+    visibility: collapse;
   }
 
   .contact-footer-work {
@@ -365,7 +365,7 @@
 
   /* WORK */
   .work-showcase {
-    display: none;
+    visibility: collapse;
   }
 }
 
@@ -398,7 +398,10 @@
 
   /* WORK */
   .work-showcase {
-    display: none;
+    visibility: visible;
+  }
+  .work-layout{
+    visibility: hidden;
   }
 }
 
@@ -667,6 +670,10 @@
 
   /* WORK */
   .work-showcase {
-    display: none;
+    visibility: visible;
+  }
+
+  .work-layout{
+    visibility: hidden;
   }
 }
