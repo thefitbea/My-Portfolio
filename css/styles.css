@@ -166,9 +166,6 @@ left: 5.3%; */
 }
 
 /* ABOUT */
-.path {}
-
-.mile-stones {}
 
 .why {
   text-align: center;
@@ -197,7 +194,7 @@ left: 5.3%; */
 }
 
 .y-description-heading {
-  font-weight: 550;
+  font-weight: 500;
 }
 
 .y-description {
@@ -410,10 +407,10 @@ left: 5.3%; */
   font-size: .75rem;
 }
 
-.passion {}
 
 .card-custom {
-  width: 77%;
+  /* width: 77%; */
+  /* DUPLICATE VALUE FOUND */
   height: auto;
   margin: 0px;
   border-style: none;
@@ -473,7 +470,7 @@ left: 5.3%; */
 }
 
 .hire-me-button:hover, .read-blog-button:hover {
-  background-color: ;
+  background-color: transparent;
 }
 
 /* END-ABOUT */
@@ -493,4 +490,38 @@ left: 5.3%; */
   position: absolute;
   top: 60%;
   left: 42%;
+}
+
+/* END-BLOG */
+
+/* WORK */
+
+.work-showcase{
+  padding: 3% 5%;
+  margin: auto;
+  width: 70%;
+  height: auto;
+}
+.carousel-caption{
+  /* color: black;
+  background-color: white; */
+  padding: 0px;
+}
+.carousel-control-next, .carousel-control-prev{
+  background-color: transparent;
+}
+
+.custom-carousel-caption{
+  color: black;
+  background-color: white;
+}
+
+.work-layout{
+  padding-top: 3%;
+}
+
+.work-layout-image-div{
+  width: 77.5%;
+  height: auto;
+  margin: auto;
 }
