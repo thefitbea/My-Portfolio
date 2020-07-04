@@ -57,6 +57,11 @@
 @media (min-width: 768px) and (max-width:992px) {
 
   /* COMMON */
+  body {
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+
   .contact-footer {
     background-color: #fff;
     text-align: center;
@@ -267,6 +272,20 @@
     top: 44.5%;
     left: 32%;
   }
+
+  /* WORK */
+  .work-showcase {
+    display: none;
+  }
+
+  .contact-footer-work {
+    background-color: #fff;
+    text-align: center;
+    padding: 1% 15% 1%;
+    width: 100%;
+    position: absolute;
+    bottom: -100%;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -343,6 +362,11 @@
     top: 39%;
     left: 29.55%;
   }
+
+  /* WORK */
+  .work-showcase {
+    display: none;
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -370,6 +394,11 @@
     top: 41%;
     left: 62.75%;
     transform: rotate(-3.75deg);
+  }
+
+  /* WORK */
+  .work-showcase {
+    display: none;
   }
 }
 
@@ -634,5 +663,10 @@
 
   .y-description, .skill-category-item, .passion-category-item {
     font-size: 2rem;
+  }
+
+  /* WORK */
+  .work-showcase {
+    display: none;
   }
 }
