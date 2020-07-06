@@ -108,11 +108,13 @@ body {
 .o-container {
   margin: 0px;
   padding: 0px 4.75rem;
+  
 }
 
 .c-filter {
   display: flex;
   width: 100%;
+
 }
 
 .c-filter_list {
