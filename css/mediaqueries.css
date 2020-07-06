@@ -32,7 +32,7 @@
 
                                   /* REAL USAGE */
 /*// Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (min-width: 576px)  {
 
   /* COMMON */
   .c-filter {
@@ -50,6 +50,11 @@
   }
 
   /* ABOUT */
+  /* WORK */
+
+  .work-showcase{
+    visibility: hidden;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up), no less than 992px */
@@ -278,13 +283,17 @@
     visibility: collapse;
   }
 
-  .contact-footer-work {
+  #footer-work-mobile {
     background-color: #fff;
     text-align: center;
     padding: 1% 15% 1%;
     width: 100%;
     position: absolute;
-    bottom: -100%;
+    bottom: -160%;
+    visibility: visible;
+  }
+  .contact-footer{
+    visibility: hidden;
   }
 }
 
@@ -292,6 +301,7 @@
 @media (min-width: 992px) {
 
   /* COMMON */
+
   .custom-dropdown {
     padding-bottom: 7%;
   }
@@ -364,9 +374,13 @@
   }
 
   /* WORK */
-  .work-showcase {
-    visibility: collapse;
+  .work-layout {
+    visibility: hidden;
   }
+  .work-showcase{
+    visibility: visible;
+  }
+
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -651,6 +665,23 @@
     font-family: 'Courier Prime', monospace;
     color: #0d151c;
   }
+  /* WORK */
+  #footer-work-mobile {
+    background-color: #fff;
+    text-align: center;
+    padding: 1% 15% 1%;
+    width: 100%;
+    position: absolute;
+    top: 200%;
+    visibility: visible;
+  }
+  #footer-work{
+    visibility: hidden;
+  }
+  .work-showcase{
+    visibility: hidden;
+  }
+
 }
 
 /* O_L_D */
