@@ -108,7 +108,7 @@ body {
 .o-container {
   margin: 0px;
   padding: 0px 4.75rem;
-  
+
 }
 
 .c-filter {
@@ -463,7 +463,7 @@ left: 5.3%; */
   right: 0%;
 }
 
-.hire-me-button, .read-blog-button {
+#hire-me-button, #read-blog-button {
   border-style: hidden;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.75rem;
@@ -471,8 +471,8 @@ left: 5.3%; */
   border-radius: 12px 0px 12px 0px;
 }
 
-.hire-me-button:hover, .read-blog-button:hover {
-  background-color: transparent;
+#hire-me-button:hover, #read-blog-button:hover {
+  background-color: #343a40;
 }
 
 /* END-ABOUT */
@@ -526,4 +526,16 @@ left: 5.3%; */
   width: 77.5%;
   height: auto;
   margin: auto;
+}
+
+/* END OF WORK */
+
+/* CONTACT */
+
+.mb-md-0, .my-md-0{
+  padding: 5%;
+}
+
+#contact-button:hover{
+  color: White;
 }
