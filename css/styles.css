@@ -232,26 +232,30 @@ left: 5.3%; */
 
 .y-2019 {
   position: absolute;
-  top: 44.5%;
+  top: 21%;
   left: 69%;
+}
+.desc-width-control{
+  width: 80%;
+  height: auto;
 }
 
 .y-2020-1 {
   position: absolute;
   top: 44.5%;
-  left: 54%;
+  left: 74%;
 }
 
 .y-2020-2 {
   position: absolute;
   top: 44.5%;
-  left: 40.5%;
+  left: 60.5%;
 }
 
 .y-2020-3 {
   position: absolute;
   top: 44.5%;
-  left: 33%;
+  left: 45%;
 }
 
 .line-1 {
@@ -474,7 +478,14 @@ left: 5.3%; */
 #hire-me-button:hover, #read-blog-button:hover {
   background-color: #343a40;
 }
-
+/* NEW-ABOUT */
+.pathway{
+  width: 60%;
+  height: auto;
+  position: absolute;
+  left: 22%;
+  top: 35%;
+}
 /* END-ABOUT */
 
 
