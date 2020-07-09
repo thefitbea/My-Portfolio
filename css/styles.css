@@ -184,6 +184,7 @@ left: 5.3%; */
 
 .why-me-ans {
   line-height: 2;
+  font-size: 1.25rem;
 }
 
 .features {
@@ -206,11 +207,15 @@ left: 5.3%; */
   line-height: 1.5;
 }
 
-.dot {
+.blockquote {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+/* .dot {
   position: absolute;
   top: 32.75%;
   left: 21.25%;
-}
+} */
 
 .y-1998 {
   position: absolute;
@@ -258,7 +263,7 @@ left: 5.3%; */
   left: 45%;
 }
 
-.line-1 {
+/* .line-1 {
   width: 10%;
   height: auto;
   position: absolute;
@@ -407,7 +412,7 @@ left: 5.3%; */
   position: absolute;
   top: 39%;
   left: 30.75%;
-}
+} */
 
 .card-header {
   font-size: .75rem;
@@ -420,7 +425,7 @@ left: 5.3%; */
   height: auto;
   margin: 0px;
   border-style: none;
-  width: 40%;
+  /* width: 40%; */
   z-index: 2;
 }
 
@@ -436,12 +441,14 @@ left: 5.3%; */
 }
 
 .skill-list {
-  position: absolute;
-  left: 15%;
-  top: 55%;
+  /* position: absolute;
+  left: 15%; */
+  /* top: 55%; */
   list-style: none;
   font-family: 'Courier Prime', monospace;
   color: #0d151c;
+  text-align: center;
+  padding: 0% 5%;
 }
 
 .skill-tick {
@@ -452,12 +459,14 @@ left: 5.3%; */
 }
 
 .passion-list {
-  position: absolute;
-  left: 72%;
-  top: 55%;
+  /* position: absolute;
+  left: 72%; */
+  /* top: 55%; */
   list-style: none;
   font-family: 'Courier Prime', monospace;
   color: #0d151c;
+  text-align: center;
+  padding: 0% 5%;
 }
 
 .passion-tick {
