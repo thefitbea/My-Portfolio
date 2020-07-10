@@ -420,6 +420,9 @@
   }
   .my-words{
     position: absolute;
+    left: 40%;
+    top: 55%;
+    font-size: 1rem;
     text-align: center;
     color: #0d151c;
   }
