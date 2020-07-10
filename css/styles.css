@@ -184,7 +184,7 @@ left: 5.3%; */
 
 .why-me-ans {
   line-height: 2;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .features {
@@ -209,7 +209,11 @@ left: 5.3%; */
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
+}
+.my-words{
+  width: 20%;
+  height: auto;
 }
 /* .dot {
   position: absolute;
@@ -456,6 +460,7 @@ left: 5.3%; */
   height: auto;
   position: absolute;
   right: 0%;
+  padding: 1%;
 }
 
 .passion-list {
@@ -474,6 +479,7 @@ left: 5.3%; */
   height: auto;
   position: absolute;
   right: 0%;
+  padding: 1%;
 }
 
 #hire-me-button, #read-blog-button {
@@ -482,6 +488,8 @@ left: 5.3%; */
   font-size: 1.75rem;
   line-height: 1.5;
   border-radius: 12px 0px 12px 0px;
+  width: 75%;
+  margin: auto;
 }
 
 #hire-me-button:hover, #read-blog-button:hover {
