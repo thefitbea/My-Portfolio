@@ -95,12 +95,12 @@
     left: 73%;
   }
 
-  .x-4 {
+  /* .x-4 {
     position: absolute;
     top: 37.5%;
     left: 84%;
     transform: rotate(10deg);
-  }
+  } */
 
   .y-2020-3 {
     position: absolute;
@@ -108,11 +108,11 @@
     left: 19%;
   }
 
-  .job-search {
+  /* .job-search {
     position: absolute;
     top: 36%;
     left: 46%;
-  }
+  } */
 
   .hari-image {
     width: 7%;
@@ -123,7 +123,7 @@
     /* ALSO LEARNT NEW STUFF--makes a difference-- left: 2-%; */
   }
 
-  .turn-1 {
+  /* .turn-1 {
     position: absolute;
     top: 33.25%;
     width: 2%;
@@ -237,7 +237,7 @@
     top: 38.25%;
     left: 53%;
     transform: rotate(6.05deg);
-  }
+  } */
 
   .y-2019 {
     position: absolute;
@@ -247,11 +247,11 @@
     z-index: 3;
   }
 
-  .x-5 {
+  /* .x-5 {
     position: absolute;
     top: 37.5%;
     left: 65%;
-  }
+  } */
 
   .y-2020-1 {
     position: absolute;
@@ -259,12 +259,12 @@
     left: 62%;
   }
 
-  .x-6 {
+  /* .x-6 {
     position: absolute;
     top: 37%;
     left: 51%;
     transform: rotate(-17deg);
-  }
+  } */
 
   .y-2020-2 {
     position: absolute;
@@ -277,6 +277,8 @@
     top: 44.5%;
     left: 32%;
   }
+/* NEW-ABOUT */
+
 
   /* WORK */
   .work-showcase {
@@ -321,7 +323,7 @@
   }
 
   /* ABOUT */
-  .x-4 {
+  /* .x-4 {
     position: absolute;
     top: 38%;
     left: 71.5%;
@@ -342,24 +344,21 @@
     top: 41%;
     left: 62.75%;
     transform: rotate(-5.75deg);
-  }
+  } */
 
   .y-2020-3 {
     position: absolute;
     top: 44.5%;
-    left: 25%;
+    left: 45%;
   }
 
-  .job-search {
+  /* .job-search {
     position: absolute;
     top: 39%;
     left: 30.55%;
-  }
+  } */
 
-  .blockquote {
-    margin-bottom: 1rem;
-    font-size: 1rem;
-  }
+
 
   .y-1998 {
     position: absolute;
@@ -367,11 +366,16 @@
     left: 25%;
   }
 
-  .job-search {
+  /* .job-search {
     position: absolute;
     top: 39%;
     left: 29.55%;
-  }
+  } */
+
+  /* .col-lg-4{
+    max-width: 27%;
+    max-height: 85%;
+  } */
 
   /* WORK */
   .work-layout {
@@ -392,10 +396,11 @@
     margin: auto;
     bottom: 0%;
     padding-top: 2%;
+    z-index: 2;
   }
 
   /* ABOUT */
-  .job-search {
+  /* .job-search {
     position: absolute;
     top: 39%;
     left: 30.75%;
@@ -408,6 +413,24 @@
     top: 41%;
     left: 62.75%;
     transform: rotate(-3.75deg);
+  } */
+  .skill-list {
+    position: absolute;
+    left: 10%;
+    top: 55%;
+  }
+  .passion-list {
+    position: absolute;
+    left: 57%;
+    top: 55%;
+  }
+  .my-words{
+    position: absolute;
+    left: 40%;
+    top: 55%;
+    font-size: 1rem;
+    text-align: center;
+    color: #0d151c;
   }
 
   /* WORK */
@@ -420,6 +443,20 @@
 }
 
 /* EXCEPTIONS */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* ABOUT */
+  .about-detail{
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    max-width: 87%;
+    max-height: 77%;
+    font-size: 1rem;
+  }
+
+
+}
+
 /* DEVICES OF SMALLER RESOLUTION THAN */
 @media (max-width: 768px) {
 
@@ -465,7 +502,7 @@
     top: 13%;
   }
 
-  .dot {
+  /* .dot {
     position: absolute;
     top: 32.75%;
     left: 45%;
@@ -593,7 +630,7 @@
     position: absolute;
     top: 105.75%;
     left: 45%;
-  }
+  } */
 
   .y-1998 {
     position: absolute;
@@ -616,7 +653,7 @@
   .y-2019 {
     position: absolute;
     top: 70%;
-    left: 4%;
+    left: 30%;
   }
 
   .y-2020-1 {
@@ -649,8 +686,8 @@
   }
 
   .skill-list {
-    position: absolute;
-    left: 1%;
+    /* position: absolute;
+    left: 1%; */
     top: 115%;
     list-style: none;
     font-family: 'Courier Prime', monospace;
@@ -658,8 +695,8 @@
   }
 
   .passion-list {
-    position: absolute;
-    left: 55%;
+    /* position: absolute;
+    left: 55%; */
     top: 115%;
     list-style: none;
     font-family: 'Courier Prime', monospace;
@@ -687,6 +724,12 @@
 /* O_L_D */
 /* commit 615a9c877499c888d12713cd7fecc714d5469e57 on github */
 /* *********END**************/
+
+@media (min-width: 1400px) {
+  html{
+    font-size: 1.25rem;
+  }
+}
 /* 2k RESOLUTION */
 @media (min-width: 2040px) {
 
@@ -698,6 +741,8 @@
   .y-description, .skill-category-item, .passion-category-item {
     font-size: 2rem;
   }
+  /* ABOUT */
+
 
   /* WORK */
   .work-showcase {
