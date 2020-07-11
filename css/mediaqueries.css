@@ -371,10 +371,11 @@
     top: 39%;
     left: 29.55%;
   } */
-  .section-three{
-    position: absolute;
-    top: 53%;
-  }
+
+  /* .col-lg-4{
+    max-width: 27%;
+    max-height: 85%;
+  } */
 
   /* WORK */
   .work-layout {
@@ -395,6 +396,7 @@
     margin: auto;
     bottom: 0%;
     padding-top: 2%;
+    z-index: 2;
   }
 
   /* ABOUT */
@@ -426,9 +428,12 @@
     position: absolute;
     left: 40%;
     top: 55%;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     text-align: center;
     color: #0d151c;
+  }
+  .pathway-mobile{
+    visibility: hidden;
   }
 
   /* WORK */
@@ -441,6 +446,25 @@
 }
 
 /* EXCEPTIONS */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* ABOUT */
+  .about-detail{
+    position: absolute;
+    top: 55%;
+    left: 12%;
+    max-width: 87%;
+    max-height: 77%;
+    /* font-size: 1rem; */
+  }
+}
+
+@media (min-width: 1400px) {
+  .section-two, .section-three{
+    /* font-size: 1.25rem; */
+  }
+}
+
+
 /* DEVICES OF SMALLER RESOLUTION THAN */
 @media (max-width: 768px) {
 
@@ -708,17 +732,21 @@
 /* O_L_D */
 /* commit 615a9c877499c888d12713cd7fecc714d5469e57 on github */
 /* *********END**************/
+
+
 /* 2k RESOLUTION */
 @media (min-width: 2040px) {
 
   /* COMMON */
   body h4 {
-    font-size: 2rem;
+    /* font-size: 2rem; */
   }
 
   .y-description, .skill-category-item, .passion-category-item {
-    font-size: 2rem;
+    /* font-size: 2rem; */
   }
+  /* ABOUT */
+
 
   /* WORK */
   .work-showcase {
