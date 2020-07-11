@@ -184,7 +184,7 @@ left: 5.3%; */
 
 .why-me-ans {
   line-height: 2;
-  font-size: 1rem;
+  font-size: 0.88rem;
 }
 
 .features {
@@ -209,11 +209,15 @@ left: 5.3%; */
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 0.88rem;
 }
+
 .my-words{
   width: 20%;
   height: auto;
+}
+.card-body{
+  text-align: center;
 }
 /* .dot {
   position: absolute;
