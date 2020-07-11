@@ -371,6 +371,10 @@
     top: 39%;
     left: 29.55%;
   } */
+  .section-three{
+    position: absolute;
+    top: 53%;
+  }
 
   /* WORK */
   .work-layout {
