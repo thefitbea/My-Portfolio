@@ -486,12 +486,22 @@ left: 5.3%; */
   padding: 1%;
 }
 
-#hire-me-button, #read-blog-button {
+#hire-me-button {
   border-style: hidden;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.75rem;
   line-height: 1.5;
-  border-radius: 12px 0px 12px 0px;
+  border-radius: 15px 0px 15px 0px;
+  width: 75%;
+  margin: auto;
+}
+
+#read-blog-button {
+  border-style: hidden;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  border-radius: 0px 15px 0px 15px;
   width: 75%;
   margin: auto;
 }
