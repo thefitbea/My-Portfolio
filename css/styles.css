@@ -496,7 +496,7 @@ left: 5.3%; */
   margin: auto;
 }
 
-#read-blog-button {
+#read-resume-button {
   border-style: hidden;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.75rem;
@@ -506,7 +506,7 @@ left: 5.3%; */
   margin: auto;
 }
 
-#hire-me-button:hover, #read-blog-button:hover {
+#hire-me-button:hover, #read-resume-button:hover {
   background-color: #343a40;
 }
 /* NEW-ABOUT */
@@ -517,6 +517,7 @@ left: 5.3%; */
   left: 22%;
   top: 35%;
 }
+
 /* END-ABOUT */
 
 
