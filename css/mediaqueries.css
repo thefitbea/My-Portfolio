@@ -278,6 +278,14 @@
     left: 32%;
   }
 /* NEW-ABOUT */
+.pathway{
+  visibility: hidden;
+}
+.pathway-mobile{
+  position: absolute;
+  left: 47%;
+  width: 5%;
+}
 
 
   /* WORK */
@@ -456,6 +464,12 @@
     max-height: 77%;
     /* font-size: 1rem; */
   }
+  .pathway-mobile{
+    visibility: hidden;
+  }
+  #hire-me-button, #read-resume-button{
+    width: 100%;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -506,7 +520,7 @@
 
   .hari-image {
     position: absolute;
-    left: 40%;
+    left: 44.5%;
     top: 13%;
   }
 
@@ -643,42 +657,42 @@
   .y-1998 {
     position: absolute;
     top: 35%;
-    left: 52%;
+    left: 55%;
   }
 
   .y-2014 {
     position: absolute;
-    top: 52.75%;
-    left: 25%;
+    top: 52%;
+    left: 27%;
   }
 
   .y-2016 {
     position: absolute;
-    top: 57.5%;
+    top: 65%;
     left: 55%;
   }
 
   .y-2019 {
     position: absolute;
-    top: 70%;
-    left: 30%;
+    top: 83%;
+    left: 17%;
   }
 
   .y-2020-1 {
     position: absolute;
-    top: 81%;
+    top: 96%;
     left: 54%;
   }
 
   .y-2020-2 {
     position: absolute;
-    top: 98%;
+    top: 110%;
     left: 29%;
   }
 
   .y-2020-3 {
     position: absolute;
-    top: 106%;
+    top: 120%;
     left: 55%;
     z-index: 3;
   }
@@ -710,6 +724,29 @@
     font-family: 'Courier Prime', monospace;
     color: #0d151c;
   }
+
+  /* NEW-ABOUT */
+  .pathway{
+    visibility: hidden;
+  }
+  .pathway-mobile{
+    position: absolute;
+    left: 47%;
+    top: 33%;
+    width: 6%;
+  }
+.custom-location-about{
+  position: absolute;
+  top: 230%;
+}
+.section-three{
+  position: absolute;
+  top: 135%;
+}
+.skill-tick, .passion-tick{
+  padding: 2%;
+}
+
   /* WORK */
   #footer-work-mobile {
     background-color: #fff;
