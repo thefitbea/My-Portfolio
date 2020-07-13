@@ -32,7 +32,7 @@
 
                                   /* REAL USAGE */
 /*// Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px)  {
+@media (min-width: 576px) {
 
   /* COMMON */
   .c-filter {
@@ -51,8 +51,6 @@
 
   /* ABOUT */
   /* WORK */
-
-
 }
 
 /* // Medium devices (tablets, 768px and up), no less than 992px */
@@ -99,7 +97,6 @@
     left: 84%;
     transform: rotate(10deg);
   } */
-
   .y-2020-3 {
     position: absolute;
     top: 44.5%;
@@ -111,7 +108,6 @@
     top: 36%;
     left: 46%;
   } */
-
   .hari-image {
     width: 7%;
     height: auto;
@@ -236,7 +232,6 @@
     left: 53%;
     transform: rotate(6.05deg);
   } */
-
   .y-2019 {
     position: absolute;
     top: 44.5%;
@@ -250,7 +245,6 @@
     top: 37.5%;
     left: 65%;
   } */
-
   .y-2020-1 {
     position: absolute;
     top: 44.5%;
@@ -263,7 +257,6 @@
     left: 51%;
     transform: rotate(-17deg);
   } */
-
   .y-2020-2 {
     position: absolute;
     top: 44.5%;
@@ -275,16 +268,17 @@
     top: 44.5%;
     left: 32%;
   }
-/* NEW-ABOUT */
-.pathway{
-  visibility: hidden;
-}
-.pathway-mobile{
-  position: absolute;
-  left: 47%;
-  width: 45px;
-}
 
+  /* NEW-ABOUT */
+  .pathway {
+    visibility: hidden;
+  }
+
+  .pathway-mobile {
+    position: absolute;
+    left: 47%;
+    width: 45px;
+  }
 
   /* WORK */
   .work-showcase {
@@ -301,7 +295,8 @@
     top: 15%;
     visibility: visible;
   }
-  #footer-work{
+
+  #footer-work {
     visibility: hidden;
   }
 }
@@ -310,7 +305,6 @@
 @media (min-width: 992px) {
 
   /* COMMON */
-
   .custom-dropdown {
     padding-bottom: 7%;
   }
@@ -352,7 +346,6 @@
     left: 62.75%;
     transform: rotate(-5.75deg);
   } */
-
   .y-2020-3 {
     position: absolute;
     top: 44.5%;
@@ -364,9 +357,6 @@
     top: 39%;
     left: 30.55%;
   } */
-
-
-
   .y-1998 {
     position: absolute;
     top: 21%;
@@ -378,20 +368,18 @@
     top: 39%;
     left: 29.55%;
   } */
-
   /* .col-lg-4{
     max-width: 27%;
     max-height: 85%;
   } */
-
   /* WORK */
   .work-layout {
     display: none;
   }
-  .work-showcase{
+
+  .work-showcase {
     visibility: visible;
   }
-
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -426,12 +414,14 @@
     left: 10%;
     top: 55%;
   }
+
   .passion-list {
     position: absolute;
     left: 57%;
     top: 55%;
   }
-  .my-words{
+
+  .my-words {
     position: absolute;
     left: 40%;
     top: 55%;
@@ -439,12 +429,13 @@
     text-align: center;
     color: #0d151c;
   }
-  .pathway-mobile{
+
+  .pathway-mobile {
     visibility: hidden;
   }
 
   /* WORK */
-  .work-layout{
+  .work-layout {
     /* visibility: hidden; */
     display: none;
   }
@@ -452,8 +443,9 @@
 
 /* EXCEPTIONS */
 @media (min-width: 992px) and (max-width: 1200px) {
+
   /* ABOUT */
-  .about-detail{
+  .about-detail {
     position: absolute;
     top: 55%;
     left: 12%;
@@ -461,20 +453,21 @@
     max-height: 77%;
     /* font-size: 1rem; */
   }
-  .pathway-mobile{
+
+  .pathway-mobile {
     visibility: hidden;
   }
-  #hire-me-button, #read-resume-button{
+
+  #hire-me-button, #read-resume-button {
     width: 100%;
   }
 }
 
 @media (min-width: 1400px) {
-  .section-two, .section-three{
+  .section-two, .section-three {
     /* font-size: 1.25rem; */
   }
 }
-
 
 /* DEVICES OF SMALLER RESOLUTION THAN */
 @media (max-width: 768px) {
@@ -499,7 +492,6 @@
     padding-top: 0px;
     padding-bottom: 0px;
   } */
-
   body {
     overflow-x: visible;
     overflow-y: visible;
@@ -651,7 +643,6 @@
     top: 105.75%;
     left: 45%;
   } */
-
   .y-1998 {
     position: absolute;
     top: 35%;
@@ -724,26 +715,30 @@
   }
 
   /* NEW-ABOUT */
-  .pathway{
+  .pathway {
     visibility: hidden;
   }
-  .pathway-mobile{
+
+  .pathway-mobile {
     position: absolute;
     left: 47%;
     top: 33%;
     width: 45px;
   }
-#footer-about{
-  position: absolute;
-  top: 225%;
-}
-.section-three{
-  position: absolute;
-  top: 135%;
-}
-.skill-tick, .passion-tick{
-  padding: 2%;
-}
+
+  #footer-about {
+    position: absolute;
+    top: 225%;
+  }
+
+  .section-three {
+    position: absolute;
+    top: 135%;
+  }
+
+  .skill-tick, .passion-tick {
+    padding: 2%;
+  }
 
   /* WORK */
   #footer-work-mobile {
@@ -755,21 +750,20 @@
     top: 15%;
     visibility: visible;
   }
-  #footer-work{
+
+  #footer-work {
     visibility: hidden;
   }
-  .work-showcase{
+
+  .work-showcase {
     /* visibility: hidden; */
     display: none;
   }
-
 }
 
 /* O_L_D */
 /* commit 615a9c877499c888d12713cd7fecc714d5469e57 on github */
 /* *********END**************/
-
-
 /* 2k RESOLUTION */
 @media (min-width: 2040px) {
 
@@ -781,16 +775,15 @@
   .y-description, .skill-category-item, .passion-category-item {
     /* font-size: 2rem; */
   }
+
   /* ABOUT */
-
-
   /* WORK */
   .work-showcase {
     /* visibility: visible; */
     display: none;
   }
 
-  .work-layout{
+  .work-layout {
     visibility: hidden;
   }
 }
