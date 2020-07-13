@@ -325,8 +325,8 @@
     text-align: center;
     padding: 1% 15% 1%;
     width: 100%;
-    position: absolute;
-    bottom: 1%;
+    position: relative;
+    top: 15%;
   }
 
   /* ABOUT */
@@ -399,9 +399,9 @@
 
   /* COMMON */
   .contact-footer {
-    position: absolute;
+    position: relative;
     margin: auto;
-    bottom: 0%;
+    top: : 15%;
     padding-top: 2%;
     z-index: 2;
   }
@@ -485,19 +485,20 @@
     top: 55%;
     left: 0%;
     text-align: left;
-    padding-left: 0%;
+    /* padding-left: 0%; */
     padding-right: 10%;
   }
 
   .bear-video {
     width: 100%;
     height: auto;
+    padding: 33% 0%;
   }
 
-  .container-fluid {
+  /* .container-fluid {
     padding-top: 0px;
     padding-bottom: 0px;
-  }
+  } */
 
   body {
     overflow-x: visible;
@@ -505,8 +506,8 @@
   }
 
   .contact-footer {
-    position: absolute;
-    top: 165%;
+    position: relative;
+    top: 15%;
   }
 
   /* ABOUT */
@@ -732,9 +733,9 @@
     top: 33%;
     width: 45px;
   }
-.custom-location-about{
+#footer-about{
   position: absolute;
-  top: 230%;
+  top: 225%;
 }
 .section-three{
   position: absolute;
