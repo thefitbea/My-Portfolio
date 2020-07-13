@@ -52,9 +52,7 @@
   /* ABOUT */
   /* WORK */
 
-  .work-showcase{
-    visibility: hidden;
-  }
+
 }
 
 /* // Medium devices (tablets, 768px and up), no less than 992px */
@@ -72,8 +70,8 @@
     text-align: center;
     padding: 1% 15% 1%;
     width: 100%;
-    position: absolute;
-    bottom: -22%;
+    position: relative;
+    top: 15%;
   }
 
   /* ABOUT */
@@ -290,7 +288,8 @@
 
   /* WORK */
   .work-showcase {
-    visibility: collapse;
+    /* visibility: collapse; */
+    display: none;
   }
 
   #footer-work-mobile {
@@ -298,11 +297,11 @@
     text-align: center;
     padding: 1% 15% 1%;
     width: 100%;
-    position: absolute;
-    bottom: -160%;
+    position: relative;
+    top: 15%;
     visibility: visible;
   }
-  .contact-footer{
+  #footer-work{
     visibility: hidden;
   }
 }
@@ -387,7 +386,7 @@
 
   /* WORK */
   .work-layout {
-    visibility: hidden;
+    display: none;
   }
   .work-showcase{
     visibility: visible;
@@ -445,11 +444,9 @@
   }
 
   /* WORK */
-  .work-showcase {
-    visibility: visible;
-  }
   .work-layout{
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
   }
 }
 
@@ -753,15 +750,16 @@
     text-align: center;
     padding: 1% 15% 1%;
     width: 100%;
-    position: absolute;
-    top: 200%;
+    position: relative;
+    top: 15%;
     visibility: visible;
   }
   #footer-work{
     visibility: hidden;
   }
   .work-showcase{
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
   }
 
 }
@@ -787,7 +785,8 @@
 
   /* WORK */
   .work-showcase {
-    visibility: visible;
+    /* visibility: visible; */
+    display: none;
   }
 
   .work-layout{

@@ -581,6 +581,14 @@ left: 5.3%; */
   width: 77.5%;
   height: auto;
   margin: auto;
+  text-align: center;
+}
+.work-layout-caption{
+  font-weight: 600;
+  padding: 2%;
+}
+.work-layout-caption-desc{
+  padding: 1%;
 }
 
 /* END OF WORK */
@@ -593,4 +601,8 @@ left: 5.3%; */
 
 #contact-button:hover{
   color: White;
+}
+
+.address{
+  padding-top: 6.5%;
 }
