@@ -387,9 +387,9 @@
 
   /* COMMON */
   .contact-footer {
-    position: relative;
+    position: absolute;
     margin: auto;
-    top: : 15%;
+    top: 85%;
     padding-top: 2%;
     z-index: 2;
   }
