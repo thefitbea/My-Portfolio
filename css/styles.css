@@ -567,9 +567,16 @@ left: 5.3%; */
   background-color: transparent;
 }
 
-.custom-carousel-caption {
+.custom-carousel-caption, #custom-prev-next {
   color: black;
   background-color: white;
+  border-style: dotted;
+  border-radius: 1rem;
+}
+
+.custom-carousel-caption.carousel-control-next-icon{
+  border-color: black;
+  border-style: solid;
 }
 
 .work-layout {
@@ -590,6 +597,14 @@ left: 5.3%; */
 
 .work-layout-caption-desc {
   padding: 1%;
+}
+.mobile-work-image, .work-image{
+  border-radius: 1rem;
+}
+
+.mobile-work-image#mobile-white, .work-image#white{
+  border-color: black;
+  border-style: solid;
 }
 
 /* END OF WORK */
