@@ -395,6 +395,7 @@
   }
 
   /* ABOUT */
+
   /* .job-search {
     position: absolute;
     top: 39%;
@@ -428,12 +429,17 @@
     /* font-size: 1rem; */
     text-align: center;
     color: #0d151c;
+    width: 25%;
+    height: auto;
+    z-index: 4;
   }
 
   .pathway-mobile {
     visibility: hidden;
   }
-
+  #footer-about{
+    z-index: 1;
+  }
   /* WORK */
   .work-layout {
     /* visibility: hidden; */
