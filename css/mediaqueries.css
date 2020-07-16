@@ -731,16 +731,16 @@
 
   #footer-about {
     position: absolute;
-    top: 225%;
+    top: 235%;
     z-index: 3;
   }
 
   .special-padding-left{
-    padding-left: 4%;
+    padding-left: 6.6%;
   }
 
   .special-padding-right{
-    padding-right: 5%;
+    padding-right: 6.6%;
   }
 
   .section-three {
