@@ -503,10 +503,7 @@
   }
 
   /* ABOUT */
-  body {
-    overflow-x: scroll;
-    overflow-y: scroll;
-  }
+
 
   .hari-image {
     position: absolute;
@@ -729,6 +726,15 @@
   #footer-about {
     position: absolute;
     top: 225%;
+    z-index: 3;
+  }
+
+  .special-padding-left{
+    padding-left: 4%;
+  }
+
+  .special-padding-right{
+    padding-right: 5%;
   }
 
   .section-three {
@@ -758,6 +764,14 @@
   .work-showcase {
     /* visibility: hidden; */
     display: none;
+  }
+  /* BLOG */
+  #footer-blog, #footer-personal{
+    position: absolute;
+    top: 93%;
+  }
+  .coming-soon{
+    left: 33%;
   }
 }
 
