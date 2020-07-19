@@ -270,185 +270,22 @@ left: 5.3%; */
   left: 45%;
 }
 
-/* .line-1 {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  top: 33%;
-  left: 22%;
-}
-
-.x-1 {
-  position: absolute;
-  top: 32%;
-  left: 25%;
-}
-
-.line-2 {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  top: 33%;
-  left: 32%;
-  transform: rotate(6.05deg);
-}
-
-.line-3 {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  top: 33%;
-  left: 42%;
-}
-
-.x-2 {
-  position: absolute;
-  top: 32%;
-  left: 45%;
-}
-
-.line-4 {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  top: 33%;
-  left: 52%;
-  transform: rotate(6.05deg);
-}
-
-.line-5 {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  top: 33%;
-  left: 62%;
-}
-
-.x-3 {
-  position: absolute;
-  top: 32%;
-  left: 57%;
-}
-
-.turn-1 {
-  position: absolute;
-  top: 33.25%;
-  width: 2%;
-  height: auto;
-  left: 71.5%;
-}
-
-.turn-2 {
-  position: absolute;
-  top: 35%;
-  width: 2%;
-  height: auto;
-  left: 72%;
-}
-
-.line-6 {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  top: 41%;
-  left: 53%;
-  transform: rotate(6.05deg);
-}
-
-.line-7 {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  top: 41%;
-  left: 63%;
-}
-
-.x-4 {
-  position: absolute;
-  top: 40%;
-  left: 71%;
-}
-
-.line-8 {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  top: 41%;
-  left: 33%;
-  transform: rotate(6.05deg);
-}
-
-.line-9 {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  top: 41%;
-  left: 43%;
-}
-
-.x-5 {
-  position: absolute;
-  top: 39.5%;
-  left: 55%;
-}
-
-.line-10 {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  top: 41%;
-  left: 33%;
-  transform: rotate(6.05deg);
-}
-
-.line-11 {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  top: 41%;
-  left: 53%;
-}
-
-.x-6 {
-  position: absolute;
-  top: 40%;
-  left: 41%;
-}
-
-.job-search {
-  position: absolute;
-  top: 39%;
-  left: 30.75%;
-} */
 .card-header {
   font-size: .75rem;
 }
 
 .card-custom {
-  /* width: 77%; */
-  /* DUPLICATE VALUE FOUND */
   height: auto;
   margin: 0px;
   border-style: none;
-  /* width: 40%; */
   z-index: 2;
 }
 
-/* .card-header{
-  padding: 1% 2%;
-  margin-bottom: 0px;
-  background-color: rgba(0, 0, 0, 0);
-  border-bottom: 0px;
-  text-align: center;
-} */
 .skills, .passions {
   margin-bottom: 0px;
 }
 
 .skill-list {
-  /* position: absolute;
-  left: 15%; */
-  /* top: 55%; */
   list-style: none;
   font-family: 'Courier Prime', monospace;
   color: #0d151c;
@@ -465,10 +302,7 @@ left: 5.3%; */
 }
 
 .passion-list {
-  /* position: absolute;
-  left: 72%; */
-  /* top: 55%; */
-  list-style: none;
+  ;
   font-family: 'Courier Prime', monospace;
   color: #0d151c;
   text-align: center;
@@ -558,8 +392,6 @@ left: 5.3%; */
 }
 
 .carousel-caption {
-  /* color: black;
-  background-color: white; */
   padding: 0px;
 }
 
@@ -621,7 +453,3 @@ left: 5.3%; */
 .address {
   padding-top: 6.5%;
 }
-
-/* .submit-button {
-  margin: 0% 45%;
-} */
