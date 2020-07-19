@@ -160,17 +160,10 @@
 
   #footer-about {
     position: absolute;
-    top: 235%;
+    top: 115rem;
     z-index: 3;
   }
 
-  /* .special-padding-left{
-    padding-left: 6.6%;
-  }
-
-  .special-padding-right{
-    padding-right: 6.6%;
-  } */
   .section-three {
     position: absolute;
     top: 135%;
@@ -182,7 +175,6 @@
 
   /* WORK */
   .work-showcase {
-    /* visibility: collapse; */
     display: none;
   }
 
@@ -215,7 +207,6 @@
   }
 
   .c-filter {
-    /* margin-bottom: 10rem; */
     padding: 0 10%;
   }
 
@@ -229,54 +220,18 @@
   }
 
   /* ABOUT */
-  /* .x-4 {
-    position: absolute;
-    top: 38%;
-    left: 71.5%;
-  }
-
-  .line-5 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 33%;
-    left: 61.75%;
-  }
-
-  .line-7 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 41%;
-    left: 62.75%;
-    transform: rotate(-5.75deg);
-  } */
   .y-2020-3 {
     position: absolute;
     top: 44.5%;
     left: 45%;
   }
 
-  /* .job-search {
-    position: absolute;
-    top: 39%;
-    left: 30.55%;
-  } */
   .y-1998 {
     position: absolute;
     top: 21%;
     left: 25%;
   }
 
-  /* .job-search {
-    position: absolute;
-    top: 39%;
-    left: 29.55%;
-  } */
-  /* .col-lg-4{
-    max-width: 27%;
-    max-height: 85%;
-  } */
   /* WORK */
   .work-layout {
     display: none;
@@ -300,20 +255,6 @@
   }
 
   /* ABOUT */
-  /* .job-search {
-    position: absolute;
-    top: 39%;
-    left: 30.75%;
-  }
-
-  .line-7 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 41%;
-    left: 62.75%;
-    transform: rotate(-3.75deg);
-  } */
   .skill-list {
     position: absolute;
     left: 10%;
@@ -330,7 +271,6 @@
     position: absolute;
     left: 40%;
     top: 55%;
-    /* font-size: 1rem; */
     text-align: center;
     color: #0d151c;
     width: 25%;
@@ -363,7 +303,7 @@
 }
 
 /* EXCEPTIONS */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199.99px) {
 
   /* ABOUT */
   .about-detail {
@@ -372,7 +312,6 @@
     left: 12%;
     max-width: 87%;
     max-height: 77%;
-    /* font-size: 1rem; */
   }
 
   .pathway-mobile {
@@ -419,12 +358,16 @@
 @media (max-width: 768px) {
 
   /* COMMON */
+  body {
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+
   .background-video {
     position: relative;
     top: 55%;
     left: 0%;
     text-align: left;
-    /* padding-left: 0%; */
     padding-right: 10%;
   }
 
@@ -432,15 +375,6 @@
     width: 100%;
     height: auto;
     padding: 33% 0%;
-  }
-
-  /* .container-fluid {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  } */
-  body {
-    overflow-x: visible;
-    overflow-y: visible;
   }
 
   .contact-footer {
@@ -455,135 +389,6 @@
     top: 13%;
   }
 
-  /* .dot {
-    position: absolute;
-    top: 32.75%;
-    left: 45%;
-  }
-
-  .line-1 {
-    left: 41%;
-    transform: rotate(90deg);
-    top: 38%;
-  }
-
-  .line-2 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 46.25%;
-    left: 41.5%;
-    transform: rotate(90deg);
-  }
-
-  .line-3 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 54%;
-    left: 41.5%;
-    transform: rotate(90deg);
-  }
-
-  .line-4 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 62%;
-    left: 42%;
-    transform: rotate(90deg);
-  }
-
-  .line-5 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 70%;
-    left: 42%;
-    transform: rotate(90deg);
-  }
-
-  .turn-1, .turn-2 {
-    display: none;
-  }
-
-  .line-6 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 78%;
-    left: 42.5%;
-    transform: rotate(90deg);
-  }
-
-  .line-7 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 86%;
-    left: 43%;
-    transform: rotate(90deg);
-  }
-
-  .line-8 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 94%;
-    left: 43.5%;
-    transform: rotate(90deg);
-  }
-
-  .line-9 {
-    width: 10%;
-    height: auto;
-    position: absolute;
-    top: 102%;
-    left: 44%;
-    transform: rotate(90deg);
-  }
-
-  .x-1 {
-    position: absolute;
-    top: 40%;
-    left: 45%;
-  }
-
-  .x-2 {
-    position: absolute;
-    top: 52%;
-    left: 44%;
-  }
-
-  .x-3 {
-    position: absolute;
-    top: 63%;
-    left: 45%;
-  }
-
-  .x-4 {
-    position: absolute;
-    top: 76%;
-    left: 44%;
-  }
-
-  .x-5 {
-    position: absolute;
-    top: 83%;
-    left: 46.5%;
-  }
-
-  .x-6 {
-    position: absolute;
-    top: 99%;
-    left: 45%;
-  }
-
-  .job-search {
-    position: absolute;
-    top: 105.75%;
-    left: 45%;
-  } */
   .y-1998 {
     position: absolute;
     top: 35%;
@@ -638,8 +443,6 @@
   }
 
   .skill-list {
-    /* position: absolute;
-    left: 1%; */
     top: 115%;
     list-style: none;
     font-family: 'Courier Prime', monospace;
@@ -647,8 +450,6 @@
   }
 
   .passion-list {
-    /* position: absolute;
-    left: 55%; */
     top: 115%;
     list-style: none;
     font-family: 'Courier Prime', monospace;
@@ -665,6 +466,7 @@
     left: 47%;
     top: 33%;
     width: 45px;
+    height: -webkit-fill-available;
   }
 
   #footer-about {
@@ -673,13 +475,6 @@
     z-index: 3;
   }
 
-  /* .special-padding-left{
-    padding-left: 6.6%;
-  }
-
-  .special-padding-right{
-    padding-right: 6.6%;
-  } */
   .section-three {
     position: absolute;
     top: 135%;
@@ -700,7 +495,6 @@
   }
 
   .work-showcase {
-    /* visibility: hidden; */
     display: none;
   }
 
@@ -722,18 +516,9 @@
 @media (min-width: 2040px) {
 
   /* COMMON */
-  body h4 {
-    /* font-size: 2rem; */
-  }
-
-  .y-description, .skill-category-item, .passion-category-item {
-    /* font-size: 2rem; */
-  }
-
   /* ABOUT */
   /* WORK */
   .work-showcase {
-    /* visibility: visible; */
     display: none;
   }
 
