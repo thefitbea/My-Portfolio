@@ -4,4 +4,4 @@ Another version of a portfolio site made from pure inspiration from people all o
 
 Completely made from scratch using Atom, run on Google Chrome Dev 
 
-The site will be hosted on https://www.fitbea.com/hari
+The site will be hosted on https://www.fitbea.com/hari but now at the moment its running at https://www.fitbea.com
